@@ -17,7 +17,7 @@ You can find links to my LinkedIn and email on [my website](https://jly02.github
 $$x \in L \implies M(x, u) \in \\{ 1, ? \\} \text{ for all } u,~ M(x, u) = 1 \text{ for at least one } u$$
 $$x \notin L \implies M(x, u) \in \\{ 0, ? \\} \text{ for all } u,~ M(x, u) = 0 \text{ for at least one } u$$
 
-_Proof_. We know $L$ has polynomial-time verifiers for both _yes_ and _no_ instances. Call these verifiers $V_y$ and $V_n$, both taking inputs $(x, u)$. We design the following simple algorithm to be run by $\mathcal{M}$.
+_Proof_. We are given that $L$ has polynomial-time verifiers for both _yes_ and _no_ instances. Call these verifiers $V_y$ and $V_n$. We design the following simple algorithm to be run by $\mathcal{M}$.
 - Run $V_y(x, u)$ and $V_n(x, u)$.
 
   - If $V_y$ outputs 1, then we know $u$ is a good certificate for $x \in L$. $\mathcal{M}$ outputs 1.
