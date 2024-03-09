@@ -1,6 +1,6 @@
 ### Hi, I'm Jonathan! 🐼
 
-I'm a computer science major at the University of Washington. My interests span many theoretical and applied disciplines, including computational complexity theory, cryptography, logic and programming languages, and formal methods. It might seem like a lot to some, but there's no reason to believe these topics are all disjoint: if I don't know what the intersection is yet, I simply have to learn more.
+I'm a computer science major at the University of Washington. My interests span several theoretical and applied disciplines, including computational complexity theory, cryptography, logic and programming languages, and formal methods. It might seem like a lot to some, but there's no reason to believe these topics are all disjoint: if I don't know what the intersection is yet, I simply have to learn more.
 
 And while these may sound highly academic, I am equally enthusiastic about applying my knowledge to real-world situations!
 
