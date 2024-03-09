@@ -28,7 +28,7 @@ Note that it cannot be the case that both $x \in L$ and $x \notin L$, so $V_y$ a
 - $x \in L$. Then $\mathcal{M}$ either outputs 1 if $u$ is a good certificate, or ? if $u$ is a bad certificate.
 - $x \notin L$. Same as before. $\mathcal{M}$ outputs 0 if $u$ is a good certificate, and $?$ otherwise.
 
-So $\mathcal{M}$ satisfies the properties above! And since $V_y$ and $V_n$ run in polynomial-time, $\mathcal{M}$ is guaranteed to as well. Thus, the claim is proven. $\blacksquare$
+So $\mathcal{M}$ satisfies our properties! And since $V_y$ and $V_n$ run in polynomial-time, $\mathcal{M}$ is guaranteed to as well. Thus, the claim is proven. $\blacksquare$
 
 <!--
 **jly02/jly02** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
