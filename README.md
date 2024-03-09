@@ -18,13 +18,22 @@ $$x \in L \implies M(x, u) \in \\{ 1, ? \\} \text{ for all } u,~ M(x, u) = 1 \te
 $$x \notin L \implies M(x, u) \in \\{ 0, ? \\} \text{ for all } u,~ M(x, u) = 0 \text{ for at least one } u$$
 
 _Proof_. We are given that $L$ has polynomial-time verifiers for both _yes_ and _no_ instances. Call these verifiers $V_y$ and $V_n$. We design the following simple algorithm to be run by $\mathcal{M}$.
-- Run $V_y(x, u)$ and $V_n(x, u)$.
 
-  - If $V_y$ outputs 1, then we know $u$ is a good certificate for $x \in L$. $\mathcal{M}$ outputs 1.
-  - If $V_n$ outputs 1, then we know $u$ is a good certificate for $x \notin L$. $\mathcal{M}$ outputs 0.
-  - If neither output 1, $\mathcal{M}$ will output $?$.
+>$\quad \texttt{procedure } \mathcal{M}(x, u)$ 
+>
+>$\quad \quad b_y \gets V_y(x, u)$ 
+>
+>$\quad \quad b_n \gets V_n(x, u)$
+>
+>$\quad \quad \texttt{if } b_y = 1:~ \texttt{return 1}$
+>
+>$\quad \quad \texttt{if } b_n = 1:~ \texttt{return 0}$
+>
+>$\quad \quad \texttt{return ?}$
+>
+>$\quad \texttt{end}$
 
-Note that it cannot be the case that both $x \in L$ and $x \notin L$, so $V_y$ and $V_n$ never both output 1. Then the cases are easy to check:
+Note that we cannot have both $x \in L$ and $x \notin L$, so $V_y$ and $V_n$ never both output 1. Then the cases are easy to check:
 - $x \in L$. Then $\mathcal{M}$ either outputs 1 if $u$ is a good certificate, or $?$ if $u$ is a bad certificate.
 - $x \notin L$. Same as before. $\mathcal{M}$ outputs 0 if $u$ is a good certificate, and $?$ otherwise.
 
