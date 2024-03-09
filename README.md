@@ -21,15 +21,15 @@ _Proof_. We are given that $L$ has polynomial-time verifiers for both _yes_ and 
 
 >$\quad \texttt{procedure } \mathcal{M}(x, u)$ 
 >
->$\quad \qquad b_y \gets V_y(x, u)$ 
+>$\qquad b_y \gets V_y(x, u)$ 
 >
->$\quad \qquad b_n \gets V_n(x, u)$
+>$\qquad b_n \gets V_n(x, u)$
 >
->$\quad \qquad \texttt{if } b_y = 1:~ \texttt{return 1}$
+>$\qquad \texttt{if } b_y = 1:~ \texttt{return 1}$
 >
->$\quad \qquad \texttt{if } b_n = 1:~ \texttt{return 0}$
+>$\qquad \texttt{if } b_n = 1:~ \texttt{return 0}$
 >
->$\quad \qquad \texttt{return ?}$
+>$\qquad \texttt{return ?}$
 >
 >$\quad \texttt{end}$
 
