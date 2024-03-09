@@ -6,7 +6,7 @@ And while these may sound highly academic, I am equally enthusiastic about apply
 
 ### What I'm Up To
 
-Currently, I'm a research assistant contributing to the [HPDIC](https://hpdic.github.io/). My work is about designing and implementing cryptographic protocols which leverage caching and the power of [homomorphic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) to accelerate encryption operations for large batches of data (see: [RacheAL](https://github.com/jly02/RacheAL)).
+Currently, I'm a research assistant at the [HPDIC](https://hpdic.github.io/) lab. My work is about designing and implementing cryptographic protocols which leverage caching and the power of [homomorphic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) to accelerate encryption operations for large batches of data (see: [RacheAL](https://github.com/jly02/RacheAL)).
 
 ### How to Reach Me
 
