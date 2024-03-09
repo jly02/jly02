@@ -22,10 +22,10 @@ _Proof_. We are given that $L$ has polynomial-time verifiers for both _yes_ and 
 
   - If $V_y$ outputs 1, then we know $u$ is a good certificate for $x \in L$. $\mathcal{M}$ outputs 1.
   - If $V_n$ outputs 1, then we know $u$ is a good certificate for $x \notin L$. $\mathcal{M}$ outputs 0.
-  - If neither output 1, $\mathcal{M}$ will output ?.
+  - If neither output 1, $\mathcal{M}$ will output $?$.
 
 Note that it cannot be the case that both $x \in L$ and $x \notin L$, so $V_y$ and $V_n$ never both output 1. Then the cases are easy to check:
-- $x \in L$. Then $\mathcal{M}$ either outputs 1 if $u$ is a good certificate, or ? if $u$ is a bad certificate.
+- $x \in L$. Then $\mathcal{M}$ either outputs 1 if $u$ is a good certificate, or $?$ if $u$ is a bad certificate.
 - $x \notin L$. Same as before. $\mathcal{M}$ outputs 0 if $u$ is a good certificate, and $?$ otherwise.
 
 So $\mathcal{M}$ satisfies our properties! And since $V_y$ and $V_n$ run in polynomial-time, $\mathcal{M}$ is guaranteed to as well. Thus, the claim is proven. $\blacksquare$
