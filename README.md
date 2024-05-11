@@ -13,31 +13,15 @@ Currently, I'm a research assistant at the [HPDIC](https://hpdic.github.io/) lab
 You can find links to my LinkedIn and email on [my website](https://jly02.github.io/social.html)!
 
 ### A Cool Theorem
-**Theorem**. Let $L \in \mathsf{NP} \cap \mathsf{co}\text{-}\mathsf{NP}$. Then there is a polynomial-time turing machine $\mathcal{M}$ taking inputs $(x, u)$ with the following properties:
-$$x \in L \implies M(x, u) \in \\{ 1, ? \\} \text{ for all } u,~ M(x, u) = 1 \text{ for at least one } u$$
-$$x \notin L \implies M(x, u) \in \\{ 0, ? \\} \text{ for all } u,~ M(x, u) = 0 \text{ for at least one } u$$
+**Theorem** (Law of the Excluded Middle, Model Theoretic Version). For any predicate $A$ and structure $M$ on a language $\mathcal{L}$,
+$$M \vDash (A(x) \lor \neg A(x))$$
 
-_Proof_. We are given that $L$ has polynomial-time verifiers for both _yes_ and _no_ instances. Call these verifiers $V_y$ and $V_n$. We design the following simple algorithm to be run by $\mathcal{M}$.
+_Proof_. Let $s$ be a variable assignment. Note that $|M| = A^M \cup (|M| - A^M)$, $A$ is modelled by some subset of $|M|$. Suppose we have $\text{Val}_s^M(x) = x_s^M$ ($x$ is interpreted as $x_s^M$ in the meta-language). Then there are two cases:
 
->$\quad \texttt{procedure } \mathcal{M}(x, u)$ 
->
->$\qquad b_y \gets V_y(x, u)$ 
->
->$\qquad b_n \gets V_n(x, u)$
->
->$\qquad \texttt{if } b_y = 1:~ \texttt{return 1}$
->
->$\qquad \texttt{if } b_n = 1:~ \texttt{return 0}$
->
->$\qquad \texttt{return ?}$
->
->$\quad \texttt{end}$
+1. $x_s^M \in A^M$. By definition, we have that $M,s \vDash A(x)$.
+2. $x_s^M \in |M| - A^M$. Then, $x_s^M \notin A^M$, and so we have $M, s \nvDash A(x)$. By definition, $M,s \vDash \neg A(x)$.
 
-Note that we cannot have both $x \in L$ and $x \notin L$, so $V_y$ and $V_n$ never both output 1. Then the cases are easy to check:
-- $x \in L$. Then $\mathcal{M}$ either outputs 1 if $u$ is a good certificate, or $?$ if $u$ is a bad certificate.
-- $x \notin L$. Same as before. $\mathcal{M}$ outputs 0 if $u$ is a good certificate, and $?$ otherwise.
-
-So $\mathcal{M}$ satisfies our properties! And since $V_y$ and $V_n$ run in polynomial-time, $\mathcal{M}$ is guaranteed to as well. Thus, the claim is proven. $\blacksquare$
+So it is the case that $M, s \vDash (A(x) \lor \neg A(x))$. Since $s$ was arbitrary, we may disregard it, giving us the claim. $\qquad \square$
 
 <!--
 **jly02/jly02** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
