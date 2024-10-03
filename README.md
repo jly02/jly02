@@ -1,12 +1,10 @@
 ### Hi, I'm Jonathan! 🐼
 
-I'm a computer science major at the University of Washington. My interests span several theoretical and applied disciplines, including computational complexity theory, cryptography, logic and programming languages, and formal methods. It might seem like a lot to some, but there's no reason to believe these topics are all disjoint: if I don't know what the intersection is yet, I simply have to learn more.
-
-And while these may sound highly academic, I am equally enthusiastic about applying my knowledge to real-world situations!
+I'm a fourth-year computer science major at the University of Washington. My interests span several theoretical and applied disciplines, including computational complexity theory, logic and programming languages, and formal methods.
 
 ### What I'm Up To
 
-Currently, I'm a research assistant at the [HPDIC](https://hpdic.github.io/) lab. My work is about designing and implementing cryptographic protocols which leverage caching and the power of [homomorphic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) to accelerate encryption operations for large batches of data (see: [RacheAL](https://github.com/jly02/RacheAL)).
+I am currently a teaching assistant for CSE 421: Introduction to Algorithms at the University of Washington.
 
 ### How to Reach Me
 
