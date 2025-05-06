@@ -4,7 +4,7 @@ I'm a fourth-year computer science major at the University of Washington. My int
 
 ### What I'm Up To
 
-I am currently a teaching assistant for CSE 421: Introduction to Algorithms at the University of Washington.
+Programming languages, finite model theory, and cryptography!
 
 ### How to Reach Me
 
