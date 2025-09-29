@@ -4,11 +4,11 @@ I'm a recent graduate who majored in computer science and minored in applied mat
 
 ### What I'm Up To
 
-Programming languages, finite model theory, and cryptography!
+I've recently renewed my interest in statistics and data more broadly after a recent internship with the City of Seattle, and I'm exploring this more in my personal time.
 
 ### How to Reach Me
 
-You can find links to my LinkedIn and email on [my website](https://jly02.github.io/social.html)!
+You can find links to my LinkedIn and email on [my website](https://jly02.github.io/)!
 
 ### A Cool Theorem
 **Theorem** (Law of the Excluded Middle, Model Theoretic Version). For any predicate $A$ and structure $M$ on a language $\mathcal{L}$,
