@@ -4,7 +4,7 @@ I'm a recent graduate who majored in computer science and minored in applied mat
 
 ### What I'm Up To
 
-I've recently renewed my interest in statistics and data more broadly after a recent internship with the City of Seattle, and I'm exploring this more in my personal time.
+I am joining [Synthego](https://www.synthego.com/) as a Software Engineer! 
 
 ### How to Reach Me
 
