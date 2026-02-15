@@ -1,6 +1,6 @@
 ### Hi, I'm Jonathan! 🐼
 
-I'm a recent graduate who majored in computer science and minored in applied mathematics at the University of Washington. My interests span several theoretical and applied disciplines, including computational complexity theory, logic and programming languages, and formal methods.
+I'm a graduate from the University of Washington who majored in computer science and minored in applied mathematics. My interests span several theoretical and applied disciplines, including computational complexity theory, logic and programming languages, and formal methods.
 
 ### What I'm Up To
 
