@@ -8,7 +8,7 @@ As of December 2025, I am working at [Synthego](https://www.synthego.com/) as a 
 
 ### How to Reach Me
 
-You can find links to my LinkedIn and email on [my website](https://jly02.github.io/)!
+You can find links to my LinkedIn and email on [my website](https://jly02.github.io/).
 
 ### A Cool Theorem
 **Theorem** (Law of the Excluded Middle, Model Theoretic Version). For any predicate $A$ and structure $M$ on a language $\mathcal{L}$,
