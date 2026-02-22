@@ -4,7 +4,7 @@ I'm a graduate from the University of Washington who majored in computer science
 
 ### What I'm Up To
 
-I am joining [Synthego](https://www.synthego.com/) as a Software Engineer! 
+As of December 2025, I am working at [Synthego](https://www.synthego.com/) as a Software Engineer! 
 
 ### How to Reach Me
 
